@@ -1,7 +1,7 @@
 # Join the family photo network
 
-*Written for non-technical family members. Send this file (or paste its
-contents) in the group chat along with the installer files.*
+*Written for non-technical family members. Just send them the repo
+link — everything they need is inside.*
 
 ---
 
@@ -17,8 +17,10 @@ disk space for everyone's photos (we'll tell you the current size).
 
 ## Step 1 — get the files
 
-Download the `photos-net` folder we sent in the group chat and unzip it
-somewhere you can find it (Desktop or Downloads is fine).
+1. Open **github.com/Johnpc123/photos-net** in your browser.
+2. Click the green **<> Code** button → **Download ZIP**.
+3. Unzip it somewhere you can find it (Desktop or Downloads is fine)
+   and open the `photos-net` folder inside.
 
 ## Step 2 — run the installer
 
