@@ -1,0 +1,9 @@
+# photos-net roster — one line per member: <name> <syncthing-device-id>
+# This file is the SEED copy. The live roster travels inside the synced
+# 'network' folder; each member appends their own line after joining and
+# it propagates to everyone.
+#
+# Device IDs are not secrets (they're shared in the group chat to join),
+# but this public template keeps placeholders — put real IDs in the chat
+# and in your synced copy, not here.
+<your-name> <your-device-id>

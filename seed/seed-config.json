@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "network": "photos-net",
+  "folders": {
+    "roster": {
+      "id": "network",
+      "label": "network",
+      "path": "network",
+      "type": "sendreceive",
+      "rescanIntervalS": 30
+    },
+    "member": {
+      "idPrefix": "photos-",
+      "type": "sendreceive",
+      "rescanIntervalS": 60
+    },
+    "foreign": {
+      "type": "receiveonly",
+      "rescanIntervalS": 60
+    }
+  },
+  "syncthing": {
+    "fsWatcherEnabled": true,
+    "versioning": { "type": "simple", "params": { "keep": "3" } },
+    "devices": { "addresses": ["dynamic"] }
+  },
+  "gallery": {
+    "app": "pigallery2",
+    "image": "docker.io/bpatrik/pigallery2:3.5.2",
+    "port": 8089,
+    "imagesMount": "/app/data/images"
+  }
+}
